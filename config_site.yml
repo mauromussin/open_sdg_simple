@@ -4,7 +4,7 @@
 remote_theme: open-sdg/open-sdg@master
 
 # Replace this title as needed.
-title: Indicators For The Sustainable Development Goals
+title: Indicatori dell'Agenda 2030 per lo Sviluppo Sostenibile
 # Replace the baseurl with the name of this repository.
 baseurl: "/open-sdg-simple-starter"
 environment: staging
@@ -14,6 +14,7 @@ local_data_folder: _build
 # The list of languages that are translated. The first one is the default.
 languages:
   - en
+  - it
 
 # URL for the "Edit Data" button on indicators.
 data_edit_url: http://prose.io/#my-org/my-repo/edit/develop/data/indicator_[id].csv
@@ -23,7 +24,7 @@ metadata_edit_url: http://prose.io/#my-org/my-repo/edit/develop/meta/[id].md
 # Automatically create indicator pages, goal pages,
 # and some other required pages.
 create_indicators:
-  layout: indicator
+  layout: Indicatore
 create_goals:
   layout: goal
 create_pages: true
@@ -43,8 +44,8 @@ email_contacts:
 # International Support
 # Eg name: Australia and adjective: Australian
 country:
-  name: Australia
-  adjective: Australian
+  name: Italia - Regione Lombardia
+  adjective: Lombardo
 
 # Optionally uncomment and update the settings below to control the frontpage heading and instructions.
 #frontpage_heading: Australian data for Sustainable Development Goal indicators
