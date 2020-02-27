@@ -1,11 +1,11 @@
 skip_link: Skip to main content
 # This word identifies a software or web project as being in the early stages of development
 alpha: Alpha
-disclaimer: This is a development website. We welcome your
+disclaimer: Sito in fase di sviluppo. per assistenza scrivere a
   <a href="mailto:%email_address">feedback</a>.
 # This is a 'tag line' for a website - usually a catchy one-sentence elaboration of a site's title
-tag_line: 17 Goals to Transform our World
-high_contrast: High contrast
-default_contrast: Default contrast
-enable_high_contrast: Enable high contrast
-disable_high_contrast: Disable high contrast
+tag_line: 17 Obiettivi per cambiare il mondo
+high_contrast: Aumenta il contrasto
+default_contrast: Contrasto normale
+enable_high_contrast: Abilita il contrasto massimo
+disable_high_contrast: Disabilita il contrasto massimo
