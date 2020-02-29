@@ -14,7 +14,7 @@ local_data_folder: _build
 # The list of languages that are translated. The first one is the default.
 languages:
   - en
-#  - it
+  - it
 
 # URL for the "Edit Data" button on indicators.
 data_edit_url: http://prose.io/#my-org/my-repo/edit/develop/data/indicator_[id].csv
