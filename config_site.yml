@@ -6,7 +6,7 @@ remote_theme: open-sdg/open-sdg@master
 # Replace this title as needed.
 title: Indicatori dell'Agenda 2030 per lo Sviluppo Sostenibile
 # Replace the baseurl with the name of this repository.
-baseurl: "/open-sdg-simple-starter"
+baseurl: "/open_sdg_simple"
 environment: staging
 source: www
 local_data_folder: _build
