@@ -24,7 +24,7 @@ metadata_edit_url: http://prose.io/#my-org/my-repo/edit/develop/meta/[id].md
 # Automatically create indicator pages, goal pages,
 # and some other required pages.
 create_indicators:
-  layout: Indicatore
+  layout: Indicator
 create_goals:
   layout: goal
 create_pages: true
