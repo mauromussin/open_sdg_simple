@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cookies and privacy
+title: Cookies e privacy
 permalink: /it/about/cookies-and-privacy/
 language: it
 ---
