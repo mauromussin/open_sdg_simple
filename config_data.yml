@@ -17,6 +17,6 @@ src_dir: ''
 
 # Links to Git repositories with translation data.
 translations:
-  - https://github.com/mauromussin/translations-open-sdg.git@1.0.0-rc7
-  - https://github.com/open-sdg/translations-un-sdg.git@1.0.0-rc1
+  - https://github.com/mauromussin/translations-open-sdg.git@1.0.0-rc8
+  - https://github.com/mauromussin/translations-un-sdg.git@1.0.0-rc2
 
