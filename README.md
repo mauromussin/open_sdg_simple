@@ -60,6 +60,12 @@ To try out Open SDG using this starter on your local computer, use:
 make install
 make serve
 ```
-# Traduzione in intaliano
+# Traduzione in italiano
 
-TBD
+In corso la traduzione in italiano: localmente è disponibile la specifica cartella it che contiene tutte le traduzioni, mentre le stesse traduzioni sono organizzate nei due repo: 
+```
+# Links to Git repositories with translation data.
+translations:
+  - https://github.com/mauromussin/translations-open-sdg.git@1.0.0-rc8
+  - https://github.com/mauromussin/translations-un-sdg.git@1.0.0-rc3
+```
