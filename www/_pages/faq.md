@@ -1,8 +1,8 @@
 ---
 title: Frequently Asked Questions (FAQ)
-permalink: /it/faq/
+permalink: /faq/
 layout: page
-language: it
+language: en
 ---
 
 ## How do I suggest new or different data sources?

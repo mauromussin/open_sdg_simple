@@ -1,7 +1,8 @@
 ---
 title: Frequently Asked Questions (FAQ)
-permalink: /faq/
+permalink: /it/faq/
 layout: page
+language: it
 ---
 
 ## Come sono state scelte le fonti dei dati e gli indicatori?
