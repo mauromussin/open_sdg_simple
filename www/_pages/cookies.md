@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cookies e privacy
-permalink: /it/about/cookies-and-privacy/
+permalink: /about/cookies-and-privacy/
 language: it
 ---
 The following is a description of what data is collected when you use this website and what it is used for.
