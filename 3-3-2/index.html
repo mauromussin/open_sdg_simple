@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/open_sdg_simple/en',
+  remoteDataBaseUrl: '/open_sdg_simple/it',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'it',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -92,7 +92,7 @@ var translations = {
 
         <title>
           
-            Indicator 3.3.2 - Goal 3
+            Indicatore 3.3.2 - Goal 3
           
         </title>
 
@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200303165318">
+        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200303165626">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -133,17 +133,17 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-indicator">
+<body class="language-it layout-indicator">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Contrasto normale","disable_high_contrast":"Disabilita il contrasto massimo","disclaimer":"Sito in fase di sviluppo. per assistenza scrivere a <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Abilita il contrasto massimo","high_contrast":"Aumenta il contrasto","skip_link":"Skip to main content","tag_line":"17 Obiettivi per cambiare il mondo"};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="alert alert-danger" role="alert">
     <strong class="phase-tag">Alpha</strong>
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Sito in fase di sviluppo. per assistenza scrivere a <a href="mailto:test@example.com">feedback</a>.
   </div>
 </div>
 
@@ -153,19 +153,19 @@ var translations = {
   <div class="container">
 
     <a class="navbar-brand" href="/open_sdg_simple/" id="home">
-      <img src="/open_sdg_simple/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <img src="/open_sdg_simple/assets/img/SDG_logo.png" alt="Obiettivi per lo Sviluppo Sostenibile - SDG - 17 Obiettivi per cambiare il mondo" />
     </a>
 
   <div class='hidden visible-xs float-right'>
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
       <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Italiano</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/it/3-3-2/">Italiano</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/en/3-3-2/">English</a></li></ul>
 
     </div></div>
 
@@ -179,38 +179,38 @@ var translations = {
           <span data-target="menu" tabindex="0"
           role="navigation">Menu</span>
         </li>
-        <li><span data-target="search">Search</span></li>
+        <li><span data-target="search">Cerca</span></li>
       </ul>
 
       <div id="search" class="menu-target">
   <form action="/open_sdg_simple/search">
-    <input name="q" id="indicator_search" title="Search" />
+    <input name="q" id="indicator_search" title="Cerca" />
     <label for="indicator_search">
-      <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Search:</span>
+      <button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Cerca:</span>
     </label>
   </form>
 </div>
 
       
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/open_sdg_simple/reporting-status">Reporting Status</a>
+            <a href="/open_sdg_simple/reporting-status">Stato del report</a>
           </li><li class="nav-link ">
-            <a href="/open_sdg_simple/about">About</a>
+            <a href="/open_sdg_simple/about">Chi siamo</a>
           </li><li class="nav-link ">
-            <a href="/open_sdg_simple/guidance">Guidance</a>
+            <a href="/open_sdg_simple/guidance">Guida</a>
           </li><li class="nav-link ">
             <a href="/open_sdg_simple/faq">FAQ</a>
           </li><li class="nav-link ">
-            <a href="/open_sdg_simple/news">Updates</a>
+            <a href="/open_sdg_simple/news">Aggiornamenti</a>
           </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Italiano</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/it/3-3-2/">Italiano</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/en/3-3-2/">English</a></li></ul>
 
         </li></ul>
 
@@ -230,8 +230,8 @@ var translations = {
       </div>
       <div class="variable-options">
         <div>
-          <button data-type="select">Select all</button>
-          <button data-type="clear">Clear all</button>
+          <button data-type="select">Seleziona tutto</button>
+          <button data-type="clear">Deseleziona tutto</button>
         </div>
         <% _.each(seriesItem.values, function(item) { %>
           <label><input type="checkbox" value="<%=item.value%>" data-field="<%=seriesItem.field%>" /><%=translations.t(item.value)%></label>
@@ -239,10 +239,10 @@ var translations = {
       </div>
 
       <% if(allowedFields.indexOf(seriesItem.field) == -1) { %>
-        <div class="variable-hint">Available when '<%= translations.t(_.findWhere(edges, { To: seriesItem.field }).From) %>' is selected
+        <div class="variable-hint">Disponibile se '<%= translations.t(_.findWhere(edges, { To: seriesItem.field }).From) %>' è selezionato
         </div>
         <div class="no-data-hint">
-          No options available because of filters above
+          Nessuna opzione a causa della selezione impostata
         </div>
       <% }%>
 
@@ -252,7 +252,7 @@ var translations = {
 
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
-    <h5>Units type</h5>
+    <h5>tipo di unità</h5>
     <% _.each(units, function(unitsItem, index) { %>
       <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
       <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -260,7 +260,7 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"chart":"Chart","clear_all":"Clear all","clear_selections":"Clear selections","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading_map":"Loading map","map":"Map","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","no_data_hint":"No options available because of filters above","select_all":"Select all","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","sub_categories":"Sub-categories","table":"Table","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"chart":"Grafico","clear_all":"Deseleziona tutto","clear_selections":"Rimuovi selezione","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Scarica Grafico CSV","download_chart_image":"Scarica Chart Image","download_chart_image_title":"Scarica chart as image","download_csv":"Scarica CSV","download_csv_title":"Scarica as CSV","download_geojson":"Scarica GeoJSON","download_geojson_title":"Scarica as GeoJSON","download_headline":"Scacica  Headline CSV","download_headline_title":"Scarica headline data as CSV","download_source":"Scarica Source CSV","download_source_title":"Scarica source data as CSV","download_table":"Scarica Tabella CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"nota","geographical_area":"Area Geografica","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading_map":"Carica Mappa","map":"Mappa","national_metadata":"Metadati nazionali o regionali","national_metadata_blurb":"Questa tabella contiene i metadati per l'indicatore relativo alla statistica di %country_name scelto per il corrisponentes indicatore nazionale e UN. Anche se l'indicatore globale è disponibile per le statistiche a livello %country_adjective, questa tabella può essere consultata per informazioni e metadati %country_adjective-specifici.","no_data_hint":"Nessuna opzione a causa della selezione impostata","select_all":"Seleziona tutto","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Fonte","sources":"Fonti","sub_categories":"Sottocategorie","table":"Tabella","unit_of_measurement":"Unità di misura","units_type":"tipo di unità","variable_hint":"Disponibile se '%field' è selezionato","view_indicator_list":"Vai alla lista degli indicatori del goal"};</script>
 
 <script>translations['data'] = null;</script>
 
@@ -269,12 +269,12 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
-        <a href="/open_sdg_simple/3" title="View this goal's indicator list">
-          <img src="/open_sdg_simple/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" />
+        <a href="/open_sdg_simple/3" title="Vai alla lista degli indicatori del goal">
+          <img src="/open_sdg_simple/assets/img/goals/it/3.png" alt="Salute e benessere - Goal 3" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>Indicator 3.3.2: Tuberculosis incidence per 100,000 population</h1>
+        <h1>Indicatore 3.3.2: Tuberculosis incidence per 100,000 population</h1>
       </div>
     </div>
   </div>
@@ -283,8 +283,8 @@ var translations = {
 <div id="main-content" class="container goal-3">
   <ol class="breadcrumb">
     <li><a href="/open_sdg_simple/">Home</a></li>
-    <li><a href="/open_sdg_simple/3" title="Ensure healthy lives and promote well-being for all at all ages">Goal 3</a></li>
-    <li class="active">Indicator 3.3.2</li>
+    <li><a href="/open_sdg_simple/3" title="Assicurare la salute e il benessere per tutti e per tutte le età">Goal 3</a></li>
+    <li class="active">Indicatore 3.3.2</li>
   </ol>
 
   <div class="row" id="page-content-row">
@@ -332,7 +332,7 @@ var translations = {
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to National Metadata tab"
->National Metadata</a>
+>Metadati nazionali o regionali</a>
           </li>
           <li role="presentation" class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#global" aria-controls="global" role="tab" data-on="click"
@@ -346,7 +346,7 @@ data-event-label="Change to Global Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Sources tab"
->Sources</a>
+>Fonti</a>
           </li>
         
           
@@ -367,7 +367,7 @@ data-event-label="Change to Sources tab"
                 <p>
                   
                   
-                  This table provides metadata for the actual indicator available from Italia - Regione Lombardia statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Lombardo statistics, this table should be consulted for information on national methodology and other Lombardo-specific metadata information.
+                  Questa tabella contiene i metadati per l'indicatore relativo alla statistica di Italia - Regione Lombardia scelto per il corrisponentes indicatore nazionale e UN. Anche se l'indicatore globale è disponibile per le statistiche a livello Lombardo, questa tabella può essere consultata per informazioni e metadati Lombardo-specifici.
                 </p>
                 <table class="table table-hover">
   
@@ -387,7 +387,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator available </th>
+        <th scope="row">Disponibilità dell'indicatore </th>
         <td>
           
             
@@ -401,7 +401,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator description </th>
+        <th scope="row">Descrizione dell'indicatore </th>
         <td>
           
             
@@ -415,7 +415,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Geographical coverage </th>
+        <th scope="row">Copertura geografica </th>
         <td>
           
             
@@ -429,7 +429,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Unit of measurement </th>
+        <th scope="row">Unità di misura </th>
         <td>
           
             
@@ -443,7 +443,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Definitions </th>
+        <th scope="row">Definizioni </th>
         <td>
           
             
@@ -457,7 +457,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Calculations </th>
+        <th scope="row">Calcoli </th>
         <td>
           
             
@@ -471,7 +471,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Comments and limitations </th>
+        <th scope="row">Commenti e limitazioni </th>
         <td>
           
             
@@ -485,7 +485,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Data last updated </th>
+        <th scope="row">Ultimo aggiornamento </th>
         <td>
           
             
@@ -495,7 +495,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://github.com/mauromussin/open_sdg_simple/commit/9196498cd40636b7b260a4dcb988cc1924c38db8" target="_blank">
-                2020-02-27: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+                2020-02-27: see changes on GitHub <span class="visuallyhidden">Si apre in una nuova finestra</span>
               </a>
             
 
@@ -512,7 +512,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Metadata last updated </th>
+        <th scope="row">Ultimo aggiornamento dei metadati </th>
         <td>
           
             
@@ -522,7 +522,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://github.com/mauromussin/open_sdg_simple/commit/2503cf58908c8ef648dfed1c0060d17621171135" target="_blank">
-                2020-03-01: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+                2020-03-01: see changes on GitHub <span class="visuallyhidden">Si apre in una nuova finestra</span>
               </a>
             
 
@@ -637,7 +637,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator name </th>
+        <th scope="row">Nome dell'indicatore </th>
         <td>
           
             <p>Tuberculosis incidence per 100,000 population</p>
@@ -651,7 +651,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator number </th>
+        <th scope="row">Numero dell'indicatore </th>
         <td>
           
             
@@ -665,7 +665,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Target name </th>
+        <th scope="row">Nome del target </th>
         <td>
           
             <p>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>
@@ -679,7 +679,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Target number </th>
+        <th scope="row">Numero del target </th>
         <td>
           
             <p>3.3</p>
@@ -693,7 +693,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Global indicator description </th>
+        <th scope="row">Descrizione dell'indicatore </th>
         <td>
           
             
@@ -735,7 +735,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Link to UN metadata </th>
+        <th scope="row">Link ai metadati UN/Nazionali </th>
         <td>
           
             
@@ -745,7 +745,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-02.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 61 KB) <span class="visuallyhidden">opens in a new window</span>
+                United Nations Sustainable Development Goals Metadata (PDF 61 KB) <span class="visuallyhidden">Si apre in una nuova finestra</span>
               </a>
             
 
@@ -891,12 +891,12 @@ data-event-label="Change to Sources tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.readthedocs.io/en/latest/">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.readthedocs.io/en/latest/">Realizzato con Open SDG</a></li>
             
               
                 <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Contattaci</a>
                 
                 </li>
               
@@ -950,7 +950,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/open_sdg_simple/assets/js/sdg.js?v=20200303165318'></script><script>
+<script src='/open_sdg_simple/assets/js/sdg.js?v=20200303165626'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/open_sdg_simple/en',
+  remoteDataBaseUrl: '/open_sdg_simple/it',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'it',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -92,7 +92,7 @@ var translations = {
 
         <title>
           
-            Goal 4 - Quality education
+            Goal 4 - Istruzione di qualità
           
         </title>
 
@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200303165318">
+        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200303165626">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -133,17 +133,17 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal">
+<body class="language-it layout-goal">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Contrasto normale","disable_high_contrast":"Disabilita il contrasto massimo","disclaimer":"Sito in fase di sviluppo. per assistenza scrivere a <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Abilita il contrasto massimo","high_contrast":"Aumenta il contrasto","skip_link":"Skip to main content","tag_line":"17 Obiettivi per cambiare il mondo"};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="alert alert-danger" role="alert">
     <strong class="phase-tag">Alpha</strong>
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Sito in fase di sviluppo. per assistenza scrivere a <a href="mailto:test@example.com">feedback</a>.
   </div>
 </div>
 
@@ -153,19 +153,19 @@ var translations = {
   <div class="container">
 
     <a class="navbar-brand" href="/open_sdg_simple/" id="home">
-      <img src="/open_sdg_simple/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <img src="/open_sdg_simple/assets/img/SDG_logo.png" alt="Obiettivi per lo Sviluppo Sostenibile - SDG - 17 Obiettivi per cambiare il mondo" />
     </a>
 
   <div class='hidden visible-xs float-right'>
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
       <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Italiano</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/it/4/">Italiano</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/en/4/">English</a></li></ul>
 
     </div></div>
 
@@ -179,38 +179,38 @@ var translations = {
           <span data-target="menu" tabindex="0"
           role="navigation">Menu</span>
         </li>
-        <li><span data-target="search">Search</span></li>
+        <li><span data-target="search">Cerca</span></li>
       </ul>
 
       <div id="search" class="menu-target">
   <form action="/open_sdg_simple/search">
-    <input name="q" id="indicator_search" title="Search" />
+    <input name="q" id="indicator_search" title="Cerca" />
     <label for="indicator_search">
-      <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Search:</span>
+      <button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Cerca:</span>
     </label>
   </form>
 </div>
 
       
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/open_sdg_simple/reporting-status">Reporting Status</a>
+            <a href="/open_sdg_simple/reporting-status">Stato del report</a>
           </li><li class="nav-link ">
-            <a href="/open_sdg_simple/about">About</a>
+            <a href="/open_sdg_simple/about">Chi siamo</a>
           </li><li class="nav-link ">
-            <a href="/open_sdg_simple/guidance">Guidance</a>
+            <a href="/open_sdg_simple/guidance">Guida</a>
           </li><li class="nav-link ">
             <a href="/open_sdg_simple/faq">FAQ</a>
           </li><li class="nav-link ">
-            <a href="/open_sdg_simple/news">Updates</a>
+            <a href="/open_sdg_simple/news">Aggiornamenti</a>
           </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Italiano</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/it/4/">Italiano</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/en/4/">English</a></li></ul>
 
         </li></ul>
 
@@ -226,11 +226,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
-        <img src="/open_sdg_simple/assets/img/goals/en/4.png" alt="Quality education - Goal 4" />
+        <img src="/open_sdg_simple/assets/img/goals/it/4.png" alt="Istruzione di qualità - Goal 4" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 4: </span>Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+          <span class="hidden-sm hidden-md hidden-lg">Goal 4: </span>Assicurare un’istruzione di qualità, equa ed inclusiva, e promuovere opportunità di apprendimento permanente per tutti
         </h1>
       </div>
     </div>
@@ -264,7 +264,7 @@ var translations = {
             <span>
               4.1.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex
@@ -289,7 +289,7 @@ var translations = {
             <span>
               4.2.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex
@@ -314,7 +314,7 @@ var translations = {
             <span>
               4.2.2
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Participation rate in organized learning (one year before the official primary entry age), by sex
@@ -339,7 +339,7 @@ var translations = {
             <span>
               4.3.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex
@@ -364,7 +364,7 @@ var translations = {
             <span>
               4.4.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill
@@ -389,7 +389,7 @@ var translations = {
             <span>
               4.5.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated
@@ -414,7 +414,7 @@ var translations = {
             <span>
               4.6.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex
@@ -439,7 +439,7 @@ var translations = {
             <span>
               4.7.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment
@@ -464,7 +464,7 @@ var translations = {
             <span>
               4.a.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of schools with access to (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water; (f) single-sex basic sanitation facilities; and (g) basic handwashing facilities (as per the WASH indicator definitions)
@@ -489,7 +489,7 @@ var translations = {
             <span>
               4.b.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Volume of official development assistance flows for scholarships by sector and type of study
@@ -514,7 +514,7 @@ var translations = {
             <span>
               4.c.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of teachers in: (a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country
@@ -535,12 +535,12 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.readthedocs.io/en/latest/">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.readthedocs.io/en/latest/">Realizzato con Open SDG</a></li>
             
               
                 <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Contattaci</a>
                 
                 </li>
               
@@ -594,7 +594,7 @@ var translations = {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/open_sdg_simple/assets/js/sdg.js?v=20200303165318'></script><script>
+<script src='/open_sdg_simple/assets/js/sdg.js?v=20200303165626'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

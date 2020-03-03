@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/open_sdg_simple/en',
+  remoteDataBaseUrl: '/open_sdg_simple/it',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'it',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -92,7 +92,7 @@ var translations = {
 
         <title>
           
-            Goal 9 - Industry, innovation and infrastructure
+            Goal 9 - Imprese, innovazione e infrastrutture
           
         </title>
 
@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200303165318">
+        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200303165626">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -133,17 +133,17 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal">
+<body class="language-it layout-goal">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Contrasto normale","disable_high_contrast":"Disabilita il contrasto massimo","disclaimer":"Sito in fase di sviluppo. per assistenza scrivere a <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Abilita il contrasto massimo","high_contrast":"Aumenta il contrasto","skip_link":"Skip to main content","tag_line":"17 Obiettivi per cambiare il mondo"};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="alert alert-danger" role="alert">
     <strong class="phase-tag">Alpha</strong>
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Sito in fase di sviluppo. per assistenza scrivere a <a href="mailto:test@example.com">feedback</a>.
   </div>
 </div>
 
@@ -153,19 +153,19 @@ var translations = {
   <div class="container">
 
     <a class="navbar-brand" href="/open_sdg_simple/" id="home">
-      <img src="/open_sdg_simple/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <img src="/open_sdg_simple/assets/img/SDG_logo.png" alt="Obiettivi per lo Sviluppo Sostenibile - SDG - 17 Obiettivi per cambiare il mondo" />
     </a>
 
   <div class='hidden visible-xs float-right'>
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
       <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Italiano</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/it/9/">Italiano</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/en/9/">English</a></li></ul>
 
     </div></div>
 
@@ -179,38 +179,38 @@ var translations = {
           <span data-target="menu" tabindex="0"
           role="navigation">Menu</span>
         </li>
-        <li><span data-target="search">Search</span></li>
+        <li><span data-target="search">Cerca</span></li>
       </ul>
 
       <div id="search" class="menu-target">
   <form action="/open_sdg_simple/search">
-    <input name="q" id="indicator_search" title="Search" />
+    <input name="q" id="indicator_search" title="Cerca" />
     <label for="indicator_search">
-      <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Search:</span>
+      <button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Cerca:</span>
     </label>
   </form>
 </div>
 
       
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/open_sdg_simple/reporting-status">Reporting Status</a>
+            <a href="/open_sdg_simple/reporting-status">Stato del report</a>
           </li><li class="nav-link ">
-            <a href="/open_sdg_simple/about">About</a>
+            <a href="/open_sdg_simple/about">Chi siamo</a>
           </li><li class="nav-link ">
-            <a href="/open_sdg_simple/guidance">Guidance</a>
+            <a href="/open_sdg_simple/guidance">Guida</a>
           </li><li class="nav-link ">
             <a href="/open_sdg_simple/faq">FAQ</a>
           </li><li class="nav-link ">
-            <a href="/open_sdg_simple/news">Updates</a>
+            <a href="/open_sdg_simple/news">Aggiornamenti</a>
           </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Italiano</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/it/9/">Italiano</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open_sdg_simple/en/9/">English</a></li></ul>
 
         </li></ul>
 
@@ -226,11 +226,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
-        <img src="/open_sdg_simple/assets/img/goals/en/9.png" alt="Industry, innovation and infrastructure - Goal 9" />
+        <img src="/open_sdg_simple/assets/img/goals/it/9.png" alt="Imprese, innovazione e infrastrutture - Goal 9" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 9: </span>Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+          <span class="hidden-sm hidden-md hidden-lg">Goal 9: </span>Costruire una infrastruttura resiliente e promuovere l'innovazione ed una industrializzazione equa, responsabile e sostenibile
         </h1>
       </div>
     </div>
@@ -264,7 +264,7 @@ var translations = {
             <span>
               9.1.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of the rural population who live within 2 km of an all-season road
@@ -289,7 +289,7 @@ var translations = {
             <span>
               9.1.2
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Passenger and freight volumes, by mode of transport
@@ -314,7 +314,7 @@ var translations = {
             <span>
               9.2.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Manufacturing value added as a proportion of GDP and per capita
@@ -339,7 +339,7 @@ var translations = {
             <span>
               9.2.2
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Manufacturing employment as a proportion of total employment
@@ -364,7 +364,7 @@ var translations = {
             <span>
               9.3.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of small-scale industries in total industry value added
@@ -389,7 +389,7 @@ var translations = {
             <span>
               9.3.2
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of small-scale industries with a loan or line of credit
@@ -414,10 +414,10 @@ var translations = {
             <span>
               9.4.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
-            CO2 emission per unit of value added
+            Intensità di emissione di CO2 del valore aggiunto
             
           </a>
         </div>
@@ -439,7 +439,7 @@ var translations = {
             <span>
               9.5.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Research and development expenditure as a proportion of GDP
@@ -464,7 +464,7 @@ var translations = {
             <span>
               9.5.2
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Researchers (in full-time equivalent) per million inhabitants
@@ -489,7 +489,7 @@ var translations = {
             <span>
               9.a.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Total official international support (official development assistance plus other official flows) to infrastructure
@@ -514,7 +514,7 @@ var translations = {
             <span>
               9.b.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of medium and high-tech industry value added in total value added
@@ -539,7 +539,7 @@ var translations = {
             <span>
               9.c.1
               <span class="status notstarted">
-                Exploring data sources
+                Esplora le fonti dei dati
               </span>
             </span>
             Proportion of population covered by a mobile network, by technology
@@ -558,12 +558,12 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.readthedocs.io/en/latest/">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.readthedocs.io/en/latest/">Realizzato con Open SDG</a></li>
             
               
                 <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Contattaci</a>
                 
                 </li>
               
@@ -617,7 +617,7 @@ var translations = {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/open_sdg_simple/assets/js/sdg.js?v=20200303165318'></script><script>
+<script src='/open_sdg_simple/assets/js/sdg.js?v=20200303165626'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
