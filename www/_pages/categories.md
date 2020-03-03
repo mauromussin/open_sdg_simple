@@ -1,7 +1,8 @@
 ---
 layout: categories
-permalink: /categories/
-title: Categories
+permalink: /it/categories/
+title: Categorie
+language: it
 ---
-## Posts by Category
-Here is a list of posts, grouped by category:
+## Post per categorie
+Qui trovi un elenco di post, raggruppati per categoria:

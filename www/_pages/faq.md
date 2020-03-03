@@ -1,34 +1,31 @@
 ---
 title: Frequently Asked Questions (FAQ)
-permalink: /faq/
+permalink: /it/faq/
 layout: page
+language: it
 ---
 
-## How do I suggest new or different data sources?
-If you have feedback on the data sources we have used or have suggestions for new data sources then please email us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
+## Come sono state scelte le fonti dei dati e gli indicatori?
+La costruzione degli indicatori è frutto di un processo condiviso in ambito ISPRA-SNPA; sulla base delle indicazioni UN sono stati adattati al livello regionale dopo una verifica tra i vari uffici Regionali.
+Per ulteriori informazioni, proposte o segnalazioni potete scrivere a <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
 
-## What does the reporting status mean?
-We have used three different types of reporting status for an indicator, which are also colour coded:
+## Cosa significa il colore nello stato del report?
+Ci sono tre differenti stati per ogni indicatore, ciascuno rappresentato da un colore:
 
-* Reported online (green) – as a minimum the headline national data for this indicator is available on this website but the data might not be fully disaggregated yet. We are continuing to source additional disaggregations.
-* Statistics in progress (amber) – we have found a suitable source of data for this indicator or relevant proxy at national level. We are currently quality assuring the data and preparing it for publication.
-* Exploring data sources (red) – we are still looking for a suitable data source for this indicator.
+* Disponibile online (verde) – il dato è stato calcolato a livello locale con la metodologia locale più appropriata.
+* Calcolo in corso (ambra) – il dato fornito deriva da una disaggregazione nazionale ma potrebbe essere diverso qualora calcolato con la metodologia locale.
+* Ricerca delle fonti dei dati (rosso) – non ci sono dati disponibili per il calcolo.
 
-Where there is additional information about the status of indicator data collection and reporting, this will be displayed at the top of the indicator page.
+Nel caso in cui siano disponibili ulteriori informazioni sull'indicatore e sulla modalità di calcolo queste verranno visualizzate nella pagina specifica dell'indicatore.
 
-## How often will new data be added to this site?
-We will add data as soon as it has been sourced and checked. This includes new data as well as updates to data we have already published. We will continue to collect data from existing sources where possible, in cooperation with topic experts.
+## Quanto spesso viene aggiornato il sito?
+I dati vengono aggiunti non appena sono stati verificati; possono comunque essere pubblicati aggiornamenti su dati già disponibili. Il processo è in costante progresso anche in funzione delle informazioni che provengono dagli esperti.
 
-## What are you doing to fill data gaps?
-For some indicators, although we may have data at the national level, our existing data sources don’t always allow us to disaggregate by all main groups.
+## Quanto è accessibile il sito?
+Cerchiamo di rendere il sito accessibile a tutti, usando le linee guida  [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
 
-This means we need to look for new data sources, link existing ones, or model data.
+## Quale browser posso usare?
+Il sito funziona con la maggior parte dei browser. Ci sono stati segnalati dei problemi con IE8 sui quali stiamo lavorando.
 
-## How accessible is this website?
-Our aim is to make this website as accessible and usable as possible for every user. We are working towards meeting AA level of the [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
-
-## What browsers can I use to view this website?
-Our website works with most of the latest versions of the commonly used browsers. There are some issues with using the site on older versions of browsers eg IE8 and we are working to fix these.
-
-## Can other countries copy this website?
-Yes. This site is built and hosted using 100% free software and services, so other countries and localities can freely and easily reuse our code. Technical guidance on implementing this platform is available [here](https://open-sdg.readthedocs.io). Countries and localities exploring how to report their own SDGs data can also get support from the [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
+## Altre autorità regionali o subregionali possono usare questo framework?
+Certo. Il sito è prodotto con software open-source ed è un fork di open-sdg; chiunque può realizzare il suo fork utilizzando il codice e le traduzioni in italiano disponibili. La guida tecnica è disponibile  [qui](https://open-sdg.readthedocs.io). Ulteriore supporto può essere ottenuto dal [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) attraverso la [SDG National Reporting Initiative](https://www.sdgreporting.org/).

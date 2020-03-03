@@ -1,11 +1,12 @@
 ---
-title: About
-permalink: /about/
+title: Informazioni
+permalink: /it/about/
 layout: page
+language: it
 ---
 
-This website is for disseminating SDG indicator data. We are at an Alpha stage in development, so the site is still 'work in progress'.
+Questo sito è utilizzato per la disseminazione degli dati degli indicatori per lo Sviluppo Sostenibile. Si tratta di un sito in versione Alfa di sviluppo, quindi è ancora un 'work in progress'.
 
-Other countries wishing to reuse this site's underlying platform are welcome to do so for free. Our [Guidance page]({{ site.baseurl }}/guidance/) highlights key information on how to do this, linking to detailed technical instructions available in the platform's [documentation](https://open-sdg.readthedocs.io). The [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) can also provide guidance and support through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
+Se altre regioni vogliono usare questo sito nei termini del 'riuso del software' sono incoraggiate a farlo liberamente. La [Guida]({{ site.baseurl }}/guidance/) contiene informazioni di base per fare ciò, mentre la guida completa è disponibile nella [documentazione](https://open-sdg.readthedocs.io). Il [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) può fornire ulteriori informazioni e supporto, anche attraverso il [SDG National Reporting Initiative](https://www.sdgreporting.org/).
 
-If you have any feedback on this website or SDG data then please contact us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>. The answers to some frequently asked questions are also available in our [FAQ]({{ site.baseurl }}/faq/).
+Per qualunque altra informazione, richiesta o feedback su questo sito puoi contattarci a <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>. Puoi anche consultare la sezione delle [FAQ]({{ site.baseurl }}/faq/).

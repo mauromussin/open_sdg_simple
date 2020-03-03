@@ -1,23 +1,24 @@
 ---
-title: Guidance
-permalink: /guidance/
+title: Guida
+permalink: /it/guidance/
 layout: page
+language: it
 ---
 
-This page shares information for people using this website and for countries or localities wishing to take a copy of it.
+Questa pagina contiene alcune informazioni per coloro che vogliono usare questa piattaforma per i propri indicatori e per il proprio sistema di reporting.
 
-## The platform
+## La piattaforma
 
-This site is built and hosted using an open-source platform with 100% free software and services. For detailed documentation on the underlying platform, including information for developers, data providers, and policy makers, see [here](https://open-sdg.readthedocs.io).
+Questo sito è costruito e distribuito utilizzando una piattaforma open-source con il 100% di software libero e servizi gratuiti. Per informazioni dettagliate e per la documentazione della piattaforma sottostante, incluse istruzioni per gli sviluppatori, fornitori di dati, policy makers, consultare [qui](https://open-sdg.readthedocs.io).
 
-## Using this website
+## Uso del sito
 
-Answers to some specific questions about the website are included in our [Frequently Asked Questions]({{ site.baseurl }}/faq/) page.
+Alcune risposte alle domande più frequenti possono essere trovate nella sezione [FAQ]({{ site.baseurl }}/faq/).
 
-The platform documentation includes information for people adding [data](https://open-sdg.readthedocs.io/en/latest/data-format/) and [metadata](https://open-sdg.readthedocs.io/en/latest/metadata-format/).
+La documentazione include istruzioni per le persone che vogliono aggiungere [dati](https://open-sdg.readthedocs.io/en/latest/data-format/) e [metadati](https://open-sdg.readthedocs.io/en/latest/metadata-format/). Prima di trasmettere dati leggere attentamente le [FAQ]({{ site.baseurl }}/faq/)
 
-## Creating a copy of this website
+## Creare una copia del sito
 
-Other countries or localities wishing to implement a version of this platform are welcome to do so for free.
+Le Regioni o altre organizzazioni possono copiare liberamente il sito.
 
-The platform documentation includes [technical information and instructions for developers](https://open-sdg.readthedocs.io/en/latest/quick-start/).
+Per fare questo consultare le [informazioni tecniche e istruzioni per gli sviluppatori](https://open-sdg.readthedocs.io/en/latest/quick-start/).
