@@ -1,6 +1,6 @@
 ---
 title: Informazioni
-permalink: /it/about/
+permalink: /about/
 layout: page
 language: it
 ---

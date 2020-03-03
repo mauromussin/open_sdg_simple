@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contatti
-permalink: /it/contact/
+permalink: /contact/
 language: it
 ---
 ### Ci interessa il tuo parere sui contenuti del sito.

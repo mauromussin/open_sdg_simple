@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions (FAQ)
-permalink: /it/faq/
+permalink: /faq/
 layout: page
 language: it
 ---
