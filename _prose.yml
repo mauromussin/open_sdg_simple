@@ -225,13 +225,7 @@ prose:
                 value: 'line'
               - name: 'bar'
                 value: 'bar'
-            graph_limits:
-              - unit: Italia
-                minimum: 80
-                maximimum: 120
-              - unit: Lombardia
-                minimum: 80
-                maximimum: 120
+
             scope: graph
       - name: "graph_title"
         field:
@@ -239,7 +233,14 @@ prose:
             label: "Graph Title"
             translation_key: metadata_fields.graph_title
             scope: graph
-
+      - indicator_name: 1-1-x
+          graph_limits:
+            - unit: Italia
+              minimum: 80
+              maximimum: 120
+            - unit: Lombardia
+              minimum: 80
+              maximimum: 120
 
       ######### National Sources #########
       ## Source 1
