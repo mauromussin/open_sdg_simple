@@ -225,10 +225,6 @@ prose:
                 value: 'line'
               - name: 'bar'
                 value: 'bar'
-            graph_limits:
-              - unit: Value
-                minimum: 80
-                maximimum: 120 
             scope: graph
       - name: "graph_title"
         field:
@@ -236,8 +232,6 @@ prose:
             label: "Graph Title"
             translation_key: metadata_fields.graph_title
             scope: graph
-
-
       ######### National Sources #########
       ## Source 1
       - name: source_active_1
