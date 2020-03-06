@@ -232,13 +232,6 @@ prose:
             label: "Graph Title"
             translation_key: metadata_fields.graph_title
             scope: graph
-      - indicator_name: 1-1-x
-          graph_limits:
-            - unit: Value
-              minimum: 80
-              maximimum: 120
-        
-
       ######### National Sources #########
       ## Source 1
       - name: source_active_1
