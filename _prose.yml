@@ -226,9 +226,12 @@ prose:
               - name: 'bar'
                 value: 'bar'
             graph_limits:
-              - unit: Value
+              - unit: Italia
                 minimum: 80
-                maximimum: 120 
+                maximimum: 120
+              - unit: Lombardia
+                minimum: 80
+                maximimum: 120
             scope: graph
       - name: "graph_title"
         field:
