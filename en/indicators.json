@@ -1435,7 +1435,47 @@
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/en/13-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "13-1-1-a",
+          "title": "global_indicators.13-1-1-a-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open_sdg_simple/en/13-1-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "13-1-1-b",
+          "title": "global_indicators.13-1-1-b-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open_sdg_simple/en/13-1-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "13-1-1-c",
+          "title": "global_indicators.13-1-1-c-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open_sdg_simple/en/13-1-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "13-1-1-d",
+          "title": "global_indicators.13-1-1-d-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open_sdg_simple/en/13-1-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "13-1-1-e",
+          "title": "global_indicators.13-1-1-e-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open_sdg_simple/en/13-1-1-e",
+          "status": "complete"
         },
         {
           "id": "13-1-2",
