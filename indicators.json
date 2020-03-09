@@ -1431,7 +1431,7 @@
         
         {
           "id": "13-1-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "Numero di persone colpite da disastri naturali (frane-alluvioni/allagamenti) per 100.000 abitanti",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/13-1-1",
@@ -1439,7 +1439,7 @@
         },
         {
           "id": "13-1-1-a",
-          "title": "global_indicators.13-1-1-a-title",
+          "title": "Gas serra totali secondo l'inventario nazionale delle emissioni (UNFCCC)",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/13-1-1-a",
@@ -1447,7 +1447,7 @@
         },
         {
           "id": "13-1-1-b",
-          "title": "global_indicators.13-1-1-b-title",
+          "title": "Saldo tra le emissioni dovute ad attività di trasporto effettuate nel Resto del Mondo dai residenti (+) e in Italia dai non residenti (-)",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/13-1-1-b",
@@ -1455,7 +1455,7 @@
         },
         {
           "id": "13-1-1-c",
-          "title": "global_indicators.13-1-1-c-title",
+          "title": "Gas serra totali secondo i conti delle emissioni atmosferiche",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/13-1-1-c",
@@ -1463,7 +1463,7 @@
         },
         {
           "id": "13-1-1-d",
-          "title": "global_indicators.13-1-1-d-title",
+          "title": "Emissioni di CO2 e altri gas clima alteranti per abitante",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/13-1-1-d",
@@ -1471,7 +1471,7 @@
         },
         {
           "id": "13-1-1-e",
-          "title": "global_indicators.13-1-1-e-title",
+          "title": "Popolazione esposta al rischio di frane e alluvioni",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/13-1-1-e",
@@ -1508,6 +1508,30 @@
           "keywords": "",
           "href": "/open_sdg_simple/13-3-1",
           "status": "notstarted"
+        },
+        {
+          "id": "13-3-1-a",
+          "title": "Impatto degli incendi boschivi",
+          "description": "",
+          "keywords": "",
+          "href": "/open_sdg_simple/13-3-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "13-3-1-b",
+          "title": "Movimenti sismici con magnitudo superiore a 4",
+          "description": "",
+          "keywords": "",
+          "href": "/open_sdg_simple/13-3-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "13-3-1-c",
+          "title": "Anomalie di temperatura media globale sulla terraferma rispetto ai valori climatologici normali 1961-1990",
+          "description": "",
+          "keywords": "",
+          "href": "/open_sdg_simple/13-3-1-c",
+          "status": "complete"
         },
         {
           "id": "13-3-2",
