@@ -1,0 +1,9 @@
+Year,Area,Value,Rischio
+2015,Italia,2.1,frane
+2017,Italia,2.2,frane
+2015,Lombardia,0.5,frane
+2017,Lombardia,0.5,frane
+2015,Italia,10,alluvioni
+2017,Italia,10.5,alluvioni
+2015,Lombardia,2.9,alluvioni
+2017,Lombardia,4.4,alluvioni
