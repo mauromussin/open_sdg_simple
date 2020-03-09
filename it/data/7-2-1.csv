@@ -1,7 +1,55 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,Area,Settori,Value
+2012,Italia,tot consumi,15.4
+2013,Italia,tot consumi,16.7
+2014,Italia,tot consumi,17.1
+2015,Italia,tot consumi,17.5
+2016,Italia,tot consumi,17.4
+2017,Italia,tot consumi,18.3
+2012,Lombardia,tot consumi,12.1
+2013,Lombardia,tot consumi,13.3
+2014,Lombardia,tot consumi,13.8
+2015,Lombardia,tot consumi,14.0
+2016,Lombardia,tot consumi,14.2
+2017,Lombardia,tot consumi,14.5
+2012,Italia,consumi escl. trasporto,14.4
+2013,Italia,consumi escl. trasporto,15.7
+2014,Italia,consumi escl. trasporto,16.2
+2015,Italia,consumi escl. trasporto,16.6
+2016,Italia,consumi escl. trasporto,16.6
+2017,Italia,consumi escl. trasporto,17.4
+2012,Lombardia,consumi escl. trasporto,11.2
+2013,Lombardia,consumi escl. trasporto,12.4
+2014,Lombardia,consumi escl. trasporto,13.1
+2015,Lombardia,consumi escl. trasporto,13.2
+2016,Lombardia,consumi escl. trasporto,13.5
+2017,Lombardia,consumi escl. trasporto,13.8
+2004,Italia,Energia el,15.5
+2005,Italia,Energia el,13.8
+2006,Italia,Energia el,14.1
+2007,Italia,Energia el,13.3
+2008,Italia,Energia el,16.2
+2009,Italia,Energia el,20.5
+2010,Italia,Energia el,22.2
+2011,Italia,Energia el,23.8
+2012,Italia,Energia el,26.9
+2013,Italia,Energia el,33.7
+2014,Italia,Energia el,37.3
+2015,Italia,Energia el,33.1
+2016,Italia,Energia el,33.1
+2017,Italia,Energia el,31.1
+2018,Italia,Energia el,34.3
+2004,Lombardia,Energia el,14.1
+2005,Lombardia,Energia el,11.6
+2006,Lombardia,Energia el,12.7
+2007,Lombardia,Energia el,12.0
+2008,Lombardia,Energia el,16.3
+2009,Lombardia,Energia el,17.8
+2010,Lombardia,Energia el,19.1
+2011,Lombardia,Energia el,20.1
+2012,Lombardia,Energia el,20.9
+2013,Lombardia,Energia el,24.3
+2014,Lombardia,Energia el,29.4
+2015,Lombardia,Energia el,24.2
+2016,Lombardia,Energia el,23.8
+2017,Lombardia,Energia el,21.7
+2018,Lombardia,Energia el,24.0

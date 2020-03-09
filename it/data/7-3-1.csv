@@ -1,7 +1,34 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,Consumi,Area,Value
+2009,consumi interni lordi,Italia,110.1 
+2010,consumi interni lordi,Italia,110.9 
+2011,consumi interni lordi,Italia,106.9 
+2012,consumi interni lordi,Italia,105.6 
+2013,consumi interni lordi,Italia,103.5 
+2014,consumi interni lordi,Italia,97.9 
+2015,consumi interni lordi,Italia,100.2
+2016,consumi interni lordi,Italia,98.4
+2009,consumi interni lordi,Lombardia,97.0
+2010,consumi interni lordi,Lombardia,105.0
+2011,consumi interni lordi,Lombardia,95.1
+2012,consumi interni lordi,Lombardia,98.4
+2013,consumi interni lordi,Lombardia,91.1
+2014,consumi interni lordi,Lombardia,75.9
+2015,consumi interni lordi,Lombardia,77.5
+2000,consumi finali,Lombardia,76.5
+2001,consumi finali,Lombardia,76.7
+2002,consumi finali,Lombardia,74.7
+2003,consumi finali,Lombardia,76.2
+2004,consumi finali,Lombardia,75.9
+2005,consumi finali,Lombardia,76.0
+2006,consumi finali,Lombardia,73.8
+2007,consumi finali,Lombardia,71.3
+2008,consumi finali,Lombardia,71.7
+2009,consumi finali,Lombardia,75.2
+2010,consumi finali,Lombardia,76.9
+2011,consumi finali,Lombardia,71.9
+2012,consumi finali,Lombardia,73.6
+2013,consumi finali,Lombardia,74.1
+2014,consumi finali,Lombardia,69.1
+2015,consumi finali,Lombardia,72.1
+2016,consumi finali,Lombardia,70.3
+2017,consumi finali,Lombardia,68.9
