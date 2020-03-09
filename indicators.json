@@ -847,7 +847,7 @@
         
         {
           "id": "8-1-1",
-          "title": "Annual growth rate of real GDP per capita",
+          "title": "Tasso di crescita annuo del PIL reale per abitante",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-1-1",
@@ -855,7 +855,7 @@
         },
         {
           "id": "8-2-1",
-          "title": "Annual growth rate of real GDP per employed person",
+          "title": "Tasso di crescita annuo del PIL reale e del Valore Aggiunto in volume per occupato",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-2-1",
@@ -879,7 +879,7 @@
         },
         {
           "id": "8-4-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
+          "title": "Consumo materiale interno totale, pro capite e per unità di PIL",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-4-2",
@@ -887,7 +887,7 @@
         },
         {
           "id": "8-5-1",
-          "title": "Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",
+          "title": "Retribuzione oraria",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-5-1",
@@ -895,7 +895,7 @@
         },
         {
           "id": "8-5-2",
-          "title": "Unemployment rate, by sex, age and persons with disabilities",
+          "title": "Tasso di disoccupazione, di mancata partecipazione al lavoro, tasso occupazione fasce 15-64 e 20-64, percentuale di occupati sul totale della popolazione",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-5-2",
@@ -903,7 +903,7 @@
         },
         {
           "id": "8-6-1",
-          "title": "Proportion of youth (aged 15–24 years) not in education, employment or training",
+          "title": "Giovani che non lavorano e non studiano (classi 15–24 e 15-29)",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-6-1",
@@ -919,7 +919,7 @@
         },
         {
           "id": "8-8-1",
-          "title": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
+          "title": "Tasso di infortuni mortali e inabilità permanente",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-8-1",
@@ -935,7 +935,7 @@
         },
         {
           "id": "8-9-1",
-          "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
+          "title": "Quota del valore aggiunto del turismo rispetto al totale economia",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-9-1",
@@ -943,7 +943,7 @@
         },
         {
           "id": "8-9-2",
-          "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
+          "title": "Quota delle posizioni lavorative impiegate nelle industrie turistiche rispetto al totale economia (indipendentemente dalla sostenibilità)",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-9-2",
@@ -951,7 +951,7 @@
         },
         {
           "id": "8-a-1",
-          "title": "Aid for Trade commitments and disbursements",
+          "title": "Aiuto per il commercio",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-a-1",
@@ -959,7 +959,7 @@
         },
         {
           "id": "8-b-1",
-          "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
+          "title": "Quota della spesa pubblica per misure occupazionali e per la protezione sociale dei disoccupati rispetto alla spesa pubblica e al PIL",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-b-1",
@@ -967,7 +967,7 @@
         },
         {
           "id": "8-10-1",
-          "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
+          "title": "Numero di ATM, numero di sportelli operativi, numero di banche per 100.000 abitanti",
           "description": "",
           "keywords": "",
           "href": "/open_sdg_simple/8-10-1",
