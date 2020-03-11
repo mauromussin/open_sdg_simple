@@ -1,9 +1,13 @@
 Year,Area,Rischio,Value
 2015,Italia,frane,2.1
 2017,Italia,frane,2.2
+2018,Italia,frane,0.3
 2015,Lombardia,frane,0.5
 2017,Lombardia,frane,0.5
+2018,Lombardia,frane,0.1
 2015,Italia,alluvioni,10.0
 2017,Italia,alluvioni,10.5
+2018,Italia,alluvioni,10.2
 2015,Lombardia,alluvioni,2.9
 2017,Lombardia,alluvioni,4.4
+2018,Lombardia,alluvioni,4.3
