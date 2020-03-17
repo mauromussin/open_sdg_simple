@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200317142221">
+        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200317144911">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -314,7 +314,7 @@ var translations = {
     data-country=""
     data-charttitle="Popolazione esposta al rischio di frane e alluvioni"
     data-charttitles="null"
-    data-measurementunit=""
+    data-measurementunit="%"
     data-datasource=""
     data-copyright=""
     data-geographicalarea=""
@@ -373,6 +373,8 @@ var translations = {
   <div id="datatableFooter">
     
     
+    
+    <p>Unità di misura: %</p>
     
     
   </div>
@@ -554,7 +556,35 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.national_indicator_available </th>
+        <th scope="row">Disponibilità dell'indicatore </th>
+        <td>
+          
+            <p>indicatore disponibile a livello nazionale e locale</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Descrizione dell'indicatore </th>
+        <td>
+          
+            <p>Percentuale della popolazione residente in aree a pericolosità da frane elevata e molto elevata sul totale dellapopolazione residente. (a) La popolazione considerata è quella del Censimento 2011. L’Indicatore è redatto sulla base della Mosaicatura nazionale ISPRA delle aree a pericolosità da frana dei Piani di assetto idrogeologico (PAI). Tali aree includono, oltre alle frane già verificatesi, anche le zone di possibile evoluzione dei fenomeni in atto e quelle suscettibili di nuovi fenomeni franosi.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Copertura geografica </th>
         <td>
           
             
@@ -568,7 +598,21 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.national_indicator_description </th>
+        <th scope="row">Unità di misura </th>
+        <td>
+          
+            <p>%</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Definizioni </th>
         <td>
           
             
@@ -582,10 +626,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.national_geographical_coverage </th>
+        <th scope="row">Calcoli </th>
         <td>
           
-            
+            <p>Database Annuario dei dati ambientali - ISPRA (PSN:APA-00032)</p>
 
           
         </td>
@@ -596,10 +640,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.computation_units </th>
+        <th scope="row">Commenti e limitazioni </th>
         <td>
           
-            
+            <p>dato non verificato a livello locale</p>
 
           
         </td>
@@ -610,49 +654,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.computation_definitions </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">metadata_fields.computation_calculations </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">metadata_fields.comments_limitations </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">metadata_fields.national_data_update_url </th>
+        <th scope="row">Ultimo aggiornamento </th>
         <td>
           
             
@@ -679,7 +681,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.national_metadata_update_url </th>
+        <th scope="row">Ultimo aggiornamento dei metadati </th>
         <td>
           
             
@@ -688,8 +690,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/mauromussin/open_sdg_simple/commit/f2e0458803cb31f83ea327a0e1f1fccc08426b1c" target="_blank">
-                2020-03-10: see changes on GitHub <span class="visuallyhidden">Si apre in una nuova finestra</span>
+              <a href="https://github.com/mauromussin/open_sdg_simple/commit/7c73b0691749a78e70830e0078396ffd6941ce14" target="_blank">
+                2020-03-17: see changes on GitHub <span class="visuallyhidden">Si apre in una nuova finestra</span>
               </a>
             
 
@@ -804,7 +806,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.indicator_name </th>
+        <th scope="row">Nome dell'indicatore </th>
         <td>
           
             <p>Popolazione esposta al rischio di frane e alluvioni</p>
@@ -818,7 +820,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.indicator </th>
+        <th scope="row">Numero dell'indicatore </th>
         <td>
           
             
@@ -832,7 +834,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.target </th>
+        <th scope="row">Nome del target </th>
         <td>
           
             <p>Rafforzare la resilienza e la capacità di adattamento ai rischi legati al clima e ai disastri naturali in tutti i paesi</p>
@@ -846,7 +848,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.target_id </th>
+        <th scope="row">Numero del target </th>
         <td>
           
             <p>13.1</p>
@@ -860,7 +862,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.indicator_definition </th>
+        <th scope="row">Descrizione dell'indicatore </th>
         <td>
           
             <p>Popolazione esposta al rischio di frane e alluvioni in %</p>
@@ -874,7 +876,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.un_designated_tier </th>
+        <th scope="row">UN designated tier </th>
         <td>
           
             <p>2</p>
@@ -888,7 +890,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.un_custodian_agency </th>
+        <th scope="row">UN custodian agency </th>
         <td>
           
             <p>United Nations Office for Disaster Reduction (UNISDR)</p>
@@ -902,7 +904,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.goal_meta_link </th>
+        <th scope="row">Link ai metadati UN/Nazionali </th>
         <td>
           
             
@@ -910,6 +912,10 @@ data-event-label="Change to Sources tab"
             
             
 
+            
+              <a href="https://www.istat.it/storage/SDGs/SDG_13_Italy.pdf" target="_blank">
+                ISTAT <span class="visuallyhidden">Si apre in una nuova finestra</span>
+              </a>
             
 
           
@@ -1025,6 +1031,263 @@ data-event-label="Change to Sources tab"
 
 
 
+  <div class="row no-gutters">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">ISTAT </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">aggiornamento annuale </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Dati disponibili al 2017/2018 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Italia </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Link alla fonte dei dati </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data di rilascio </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">non definito </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Classificazione statistica </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Dettagli del contatto </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Altre informazioni </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
           </div>
           
@@ -1106,7 +1369,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/open_sdg_simple/assets/js/sdg.js?v=20200317142221'></script><script>
+<script src='/open_sdg_simple/assets/js/sdg.js?v=20200317144911'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
