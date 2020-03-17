@@ -1448,7 +1448,7 @@
         {
           "id": "13-1-1-b",
           "title": "global_indicators.13-1-1-b-title",
-          "description": "",
+          "description": "Emissioni di gas serra, raccordo tra i totali degli inventari nazionali e dei conti delle emissioni atmosferiche. Le emissioni di gas serra comprendono: anidride carbonica (CO2), idrofluorocarburi (HFC), perfluorocarburi (PFC), esafluoruri di zolfo (SF6), metano (CH4), protossido di azoto (N2O) e trifluoro di azoto (NF3). Sono espresse in <tonnellate di CO2 equivalente> con pesi che riflettono il potenziale di riscaldamento in rapporto all'anidride carbonica: 1 per CO2, 298 per N2O, 25 per CH4, 22800 per SF6, 17200 per NF3 e pesi variabili per gli specifici gas dei tipi HFC e PFC. Esistono due modi diversi di contabilizzare le emissioni totali: con riferimento al territorio nazionale, come avviene per i dati delle principali convenzioni internazionali sulle emissioni atmosferiche (tra le quali la United Nations Convention on Climate Change - Unfccc, specificamente riferita ai gas serra) e con riferimento alle unità residenti, come si verifica per i dati dei conti delle emissioni atmosferiche, coerentemente con i principi e gli standard che sono alla base dei conti economici nazionali. La differenza tra i due totali è data dal saldo delle emissioni delle unità residenti che operano all'estero e di quelle delle unità non residenti che operano sul territorio nazionale; il saldo complessivo risulta dalla somma dei saldi relativi alle attività di trasporto su strada, aereo e marittimo.",
           "keywords": "",
           "href": "/open_sdg_simple/en/13-1-1-b",
           "status": "complete"
