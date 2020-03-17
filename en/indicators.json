@@ -1432,7 +1432,7 @@
         {
           "id": "13-1-1",
           "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
-          "description": "",
+          "description": "L'indicatore quantifica il numero di morti e persone disperse legati ai principali eventi franosi o alluvionali verificatesi sul territorio nazionale",
           "keywords": "",
           "href": "/open_sdg_simple/en/13-1-1",
           "status": "complete"
@@ -1480,7 +1480,7 @@
         {
           "id": "13-1-2",
           "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
-          "description": "",
+          "description": "lorem ipsum",
           "keywords": "",
           "href": "/open_sdg_simple/en/13-1-2",
           "status": "notstarted"
@@ -1496,7 +1496,7 @@
         {
           "id": "13-2-1",
           "title": "Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a national adaptation plan, nationally determined contribution, national communication, biennial update report or other)",
-          "description": "",
+          "description": "lorem ipsum",
           "keywords": "",
           "href": "/open_sdg_simple/en/13-2-1",
           "status": "notstarted"
@@ -1512,7 +1512,7 @@
         {
           "id": "13-3-1-a",
           "title": "global_indicators.13-3-1-a-title",
-          "description": "",
+          "description": "lorem ipsum",
           "keywords": "",
           "href": "/open_sdg_simple/en/13-3-1-a",
           "status": "complete"
@@ -1520,7 +1520,7 @@
         {
           "id": "13-3-1-b",
           "title": "global_indicators.13-3-1-b-title",
-          "description": "",
+          "description": "Movimenti sismici con magnitudo uguale o superiore a 4,0 per classe di magnitudo",
           "keywords": "",
           "href": "/open_sdg_simple/en/13-3-1-b",
           "status": "complete"
@@ -1528,7 +1528,7 @@
         {
           "id": "13-3-1-c",
           "title": "global_indicators.13-3-1-c-title",
-          "description": "",
+          "description": "L'indicatore misura la serie temporale delle deviazioni della temperatura dell'aria media annuale, rispetto alla serie climatica di riferimento (1961-1990). Le misure sono condotte in modo standard, soggette ad assicurazione di qualità ed omogeneizzate per garantire la comparabilità dei dati.",
           "keywords": "",
           "href": "/open_sdg_simple/en/13-3-1-c",
           "status": "complete"
