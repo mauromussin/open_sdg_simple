@@ -1334,12 +1334,28 @@
           "status": "notstarted"
         },
         {
-          "id": "12-2-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
-          "description": "",
+          "id": "12-2-2-a",
+          "title": "Consumo materiale interno pro capite",
+          "description": "Il Consumo materiale interno misura il consumo apparente di risorse materiali di una economia, pari alla quantità di materiali che in un anno vengono utilizzati dal sistema socioeconomico. L'indicatore e calcolato come somma tra l'Estrazione interna di materiali utilizzati (la quantità di biomasse, minerali non energetici e combustibili fossili estratte e avviate alla trasformazione) e il saldo della Bilancia commerciale fisica, corrispondente agli Input diretti di materiali dall'estero meno gli Output diretti di materiali verso l'estero.",
           "keywords": "",
-          "href": "/open_sdg_simple/12-2-2",
-          "status": "notstarted"
+          "href": "/open_sdg_simple/12-2-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "12-2-2-b",
+          "title": "Consumo materiale interno per unità di PIL",
+          "description": "Il Consumo materiale interno misura il consumo apparente di risorse materiali di una economia, pari alla quantità di materiali che in un anno vengono utilizzati dal sistema socioeconomico. L'indicatore e calcolato come somma tra l'Estrazione interna di materiali utilizzati (la quantità di biomasse, minerali non energetici e combustibili fossili estratte e avviate alla trasformazione) e il saldo della Bilancia commerciale fisica, corrispondente agli Input diretti di materiali dall'estero meno gli Output diretti di materiali verso l'estero. Denominatore: PIL ai prezzi di mercato - valori concatenati anno di riferimento 2010.",
+          "keywords": "",
+          "href": "/open_sdg_simple/12-2-2-b",
+          "status": "complete"
+        },
+        {
+          "id": "12-2-2-c",
+          "title": "Consumo materiale interno",
+          "description": "Quantità di materiali trasformati in emissioni, rifiuti o nuovi stock (in milioni di tonnellate).",
+          "keywords": "",
+          "href": "/open_sdg_simple/12-2-2-c",
+          "status": "complete"
         },
         {
           "id": "12-3-1",
@@ -1359,35 +1375,51 @@
         },
         {
           "id": "12-4-2",
-          "title": "Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment",
-          "description": "",
+          "title": "Produzione di rifiuti speciali pericolosi in funzione del destino",
+          "description": "L'indicatore misura la quantità totale di rifiuti speciali pericolosi generati in Italia. I rifiuti vengono distinti in base alla destinazione (recupero oppure smaltimento).",
           "keywords": "",
           "href": "/open_sdg_simple/12-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "12-5-1",
-          "title": "National recycling rate, tons of material recycled",
-          "description": "",
+          "id": "12-5-1-a",
+          "title": "Percentuale di (i) rifiuti riciclati e (ii) urbani differenziati",
+          "description": "Questo indicatore misura il rapporto tra quantitativi di rifiuti urbani preparati per il riutilizzo o riciclati in un dato anno rispetto ai quantitativi prodotti nello stesso anno, secondo le metodologie di calcolo stabilite dalla Decisione 2011/753/EU. Per quanto riguarda i rifiuti urbani, la scelta può essere effettuata tra quattro possibili metodologie. Nella prima relazione sul monitoraggio dei target effettuata dagli Stati membri nel 2013, in cui doveva essere indicata la metodologia di calcolo prescelta, l'Italia ha comunicato di aver scelto la seconda metodologia e di estendere l'applicazione della stessa al legno e alla frazione organica. In Italia questa metodologia è stata applicata con riferimento alle seguenti frazioni: carta e cartone, plastica, metallo, vetro, ed estesa a legno e frazione organica (umido e verde). Inoltre, viene riportata a percentuale di rifiuti urbani oggetto di raccolta differenziata sul totale dei rifiuti urbani raccolti.",
           "keywords": "",
-          "href": "/open_sdg_simple/12-5-1",
-          "status": "notstarted"
+          "href": "/open_sdg_simple/12-5-1-a",
+          "status": "complete"
         },
         {
-          "id": "12-6-1",
-          "title": "Number of companies publishing sustainability reports",
-          "description": "",
+          "id": "12-5-1-b",
+          "title": "Ammontare dei rifiuti urbani",
+          "description": "Tonnellate di rifiuti urbani oggetto di raccolta differenziata sul totale dei rifiuti urbani raccolti.",
           "keywords": "",
-          "href": "/open_sdg_simple/12-6-1",
-          "status": "notstarted"
+          "href": "/open_sdg_simple/12-5-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "12-6-1-a",
+          "title": "Numero di organizzazioni o imprese registrate EMAS",
+          "description": "Questo indicatore è definito come il numero di organizzazioni registrate EMAS al 31 dicembre di ogni anno. Il sistema Eco-Management e Audit (EMAS) è un sistema volontario di gestione ambientale attuato da aziende e altre organizzazioni provenienti da tutti i settori dell'attività economica, tra cui le autorità locali, per valutare, segnalare e migliorare le proprie prestazioni ambientali. Il numero di registrazioni EMAS può essere considerato come un indicatore di sensibilità delle organizzazioni nei confronti dell'ambiente; esse, attuando EMAS, intendono di fatto diminuire la pressione che la propria attività, i propri prodotti e servizi, esercitano sugli ecosistemi.",
+          "keywords": "",
+          "href": "/open_sdg_simple/12-6-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "12-6-1-b",
+          "title": "Istituzioni pubbliche che adottano forme di rendicontazione sociale e/o ambientale",
+          "description": "Istituzioni pubbliche che hanno adottato forme di rendicontazione sociale e/o ambientale sul totale delle istituzioni pubbliche.",
+          "keywords": "",
+          "href": "/open_sdg_simple/12-6-1-b",
+          "status": "complete"
         },
         {
           "id": "12-7-1",
-          "title": "Number of countries implementing sustainable public procurement policies and action plans",
-          "description": "",
+          "title": "Istituzioni pubbliche che acquistano beni e/o servizi adottando criteri ambientali minimi (CAM), in almeno una procedura di acquisto (Acquisti verdi o Green Public Procurement)",
+          "description": "Percentuale di istituzioni pubbliche che hanno acquistato beni e/o servizi adottando criteri ambientali minimi (CAM), in almeno una procedura di acquisto (Acquisti verdi o Green Public Procurement), per categoria merceologica e regione.",
           "keywords": "",
           "href": "/open_sdg_simple/12-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-8-1",
@@ -1399,27 +1431,51 @@
         },
         {
           "id": "12-a-1",
-          "title": "Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies",
-          "description": "",
+          "title": "Aiuto Pubblico allo Sviluppo (APS) erogazioni lorde per la ricerca nei diversi settori di intervento",
+          "description": "Aiuto Pubblico allo Sviluppo (APS) erogazioni lorde per la ricerca nei diversi settori di intervento",
           "keywords": "",
           "href": "/open_sdg_simple/12-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "12-b-1",
-          "title": "Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools",
-          "description": "",
+          "id": "12-b-1-a",
+          "title": "Incidenza del turismo sui rifiuti",
+          "description": "Uno degli impatti piu significativi del turismo è l'incremento della produzione dei rifiuti. L'indicatore rileva il contributo del settore turistico alla produzione di rifiuti urbani, evidenziando quanto i rifiuti prodotti pro capite risentano del movimento turistico. L'indicatore è ottenuto dalla differenza tra la produzione pro capite di rifiuti urbani calcolata con la popolazione residente e la produzione pro capite di rifiuti urbani calcolata, invece, con la <popolazione equivalente>, ottenuta aggiungendo alla popolazione residente anche il numero di presenze turistiche registrate nell'anno e ripartite sui 365 giorni",
           "keywords": "",
-          "href": "/open_sdg_simple/12-b-1",
-          "status": "notstarted"
+          "href": "/open_sdg_simple/12-b-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "12-b-1-b",
+          "title": "Indice di intensità turistica",
+          "description": "Presenze (numero di notti trascorse) nelle strutture ricettive per 1.000 abitanti, per regione",
+          "keywords": "",
+          "href": "/open_sdg_simple/12-b-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "12-b-1-c",
+          "title": "Presenze in esercizi ricettivi open air, agriturismi e rifugi montani sul totale delle presenze in esercizi ricettivi",
+          "description": "Presenze (numero di notti trascorse) in esercizi ricettivi open air air, agristurismi e rifugi montani sul totale delle presenze registrate in tutti gli esercizi ricettivi, per regione. Sono strutture ricettive open air le seguenti tipologie di alloggio: campeggi e aree attrezzate per camper e roulotte, villaggi turistici, forme miste di campeggio e villaggio turistico. Valori percentuali.",
+          "keywords": "",
+          "href": "/open_sdg_simple/12-b-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "12-b-1-d",
+          "title": "Viaggi per turismo in Italia per tipologia di viaggio e principale mezzo di trasporto",
+          "description": "Viaggi effettuati dai residenti in Italia sul territorio nazionale per tipologia di viaggio (vacanza/lavoro) e mezzo di trasporto prevalente (valori percentuali)",
+          "keywords": "",
+          "href": "/open_sdg_simple/12-b-1-d",
+          "status": "complete"
         },
         {
           "id": "12-c-1",
-          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels",
-          "description": "",
+          "title": "Sussidi alle fonti fossili per unità di PIL",
+          "description": "Rapporto tra l'ammontare dei sussidi alle fonti fossili e il PIL",
           "keywords": "",
           "href": "/open_sdg_simple/12-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
