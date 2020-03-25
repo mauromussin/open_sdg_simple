@@ -15,21 +15,21 @@ indicator_definition: Descrizione dell'indicatore
 # A label describing information - the name of a particular indicator
 indicator_name: Nome dell'indicatore
 indicator_sort_order: numero d'ordine dell'indicatore (rispetto agli Obiettivi)
-national_data_update_url: Ultimo aggiornamento
+national_data_update_url: Ultimo aggiornamento nazionale
 # A label describing information - the geographical area covered by a dataset
 national_geographical_coverage: Copertura geografica
 national_indicator_available: Disponibilità dell'indicatore
 national_indicator_description: Descrizione dell'indicatore
 national_metadata_update_url: Ultimo aggiornamento dei metadati
 # A label describing information - contact information for the person or agency that provided data
-source_contact_1: Dettagli del contatto
-source_contact_2: Dettagli del contatto
-source_contact_3: Dettagli del contatto
-source_contact_4: Dettagli del contatto
-source_contact_5: Dettagli del contatto
-source_contact_6: Dettagli del contatto
+source_contact_1: Contatto non presente
+source_contact_2: Contatto non presente
+source_contact_3: Contatto non presente
+source_contact_4: Contatto non presente
+source_contact_5: Contatto non presente
+source_contact_6: Contatto non presente
 # A label describing information - the earliest date at which data for a particular indicator was provided by a particular person or agency
-source_earliest_available_1: Dati disponibili al 2017/2018
+source_earliest_available_1: Dati disponibili al 2018
 source_earliest_available_2: Dati disponibili al 2018
 source_earliest_available_3: Dati disponibili al 2018
 source_earliest_available_4: Dati disponibili al 2018
@@ -40,15 +40,15 @@ source_geographical_coverage_1: Italia
 source_geographical_coverage_2: Italia
 source_geographical_coverage_3: Lombardia
 source_geographical_coverage_4: Lombardia
-source_geographical_coverage_5: Lombardia
+source_geographical_coverage_5: Italia
 source_geographical_coverage_6: Copertura geografica
 # A label describing information - the date at which a particular person or agency plans to update their provided data
-source_next_release_1: non definito
-source_next_release_2: non definito
-source_next_release_3: non definito
-source_next_release_4: non definito
-source_next_release_5: non definito
-source_next_release_6: non definito
+source_next_release_1: aggiornamento non definito
+source_next_release_2: aggiornamento non definito
+source_next_release_3: aggiornamento non definito
+source_next_release_4: aggiornamento non definito
+source_next_release_5: aggiornamento non definito
+source_next_release_6: aggiornamento non definito
 # A label describing information - the name of any organization associated with some provided data
 source_organisation_1: ISTAT
 source_organisation_2: ISPRA
@@ -64,7 +64,7 @@ source_other_info_4: Altre informazioni
 source_other_info_5: Altre informazioni
 source_other_info_6: Altre informazioni
 # A label describing information - the frequency with which a particular source of data will provide updates
-source_periodicity_1: aggiornamento annuale
+source_periodicity_1: aggiornamento annuale/biennale
 source_periodicity_2: aggiornamento non costante
 source_periodicity_3: aggiornamento biannuale
 source_periodicity_4: label
@@ -84,12 +84,12 @@ source_statistical_classification_3: Classificazione statistica
 source_statistical_classification_4: Classificazione statistica
 source_statistical_classification_5: Classificazione statistica
 source_statistical_classification_6: Classificazione statistica
-source_url_1: https://tinyurl.com/rb8sawa
-source_url_2: Link alla fonte dei dati
-source_url_3: Link alla fonte dei dati
-source_url_4: Link alla fonte dei dati
-source_url_5: Link alla fonte dei dati
-source_url_6: Link alla fonte dei dati
+source_url_1: https://www.istat.it/it/benessere-e-sostenibilit%C3%A0/obiettivi-di-sviluppo-sostenibile/gli-indicatori-istat
+source_url_2: https://annuario.isprambiente.it/
+source_url_3: https://dati.lombardia.it/
+source_url_4: https://tinyurl.com/t7ewc2u
+source_url_5: https://www.minambiente.it/pagina/indicatori-dello-sviluppo-sostenibile
+source_url_6: https://www.arpalombardia.it/Pages/Ricerca-Dati-ed-Indicatori.aspx
 # A label describing information - the overall SDG target associated with a particular indicator
 target: Nome del target
 # A label describing information - the numeric id for the overall SDG target associated with a particular indicator
