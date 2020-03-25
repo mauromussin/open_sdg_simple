@@ -54,8 +54,8 @@ source_organisation_1: ISTAT
 source_organisation_2: ISPRA
 source_organisation_3: Regione Lombardia
 source_organisation_4: ARIA-Polis
-source_organisation_5: ARPA
-source_organisation_6: Fonte del dato
+source_organisation_5: Ministero dell'Ambiente
+source_organisation_6: ARPA
 # A label describing information - any other information about a particular source of data for a particular indicator
 source_other_info_1: Altre informazioni
 source_other_info_2: Altre informazioni
