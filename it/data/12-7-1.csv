@@ -1,7 +1,23 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,Group,Area,Value
+2015,'Apparecchiature elettriche',Italia,40.7
+2015,Arredi,Italia,12.8
+2015,Cancelleria,Italia,48.5
+2015,Pulizia,Italia,32.9
+2015,Energia,Italia,35.2
+2015,Serramenti,Italia,11.6
+2015,'Prodotti tessili',Italia,3.9
+2015,'Verde urbano',Italia,16.6
+2015,Ristorazione,Italia,21.5
+2015,Trasporti,Italia,7.2
+2015,'Rifiuti urbani',Italia,28.4
+2015,'Apparecchiature elettriche',Lombardia,36.2
+2015,Arredi,Lombardia,9.9
+2015,Cancelleria,Lombardia,44.8
+2015,Pulizia,Lombardia,29.6
+2015,Energia,Lombardia,33.4
+2015,Serramenti,Lombardia,8.8
+2015,'Prodotti tessili',Lombardia,2.9
+2015,'Verde urbano',Lombardia,16.4
+2015,Ristorazione,Lombardia,24.0
+2015,Trasporti,Lombardia,6.3
+2015,Rifiuti,Lombardia,31.5

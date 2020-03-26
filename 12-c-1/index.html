@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200326001630">
+        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200326142340">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -320,11 +320,11 @@ var translations = {
     data-geographicalarea=""
     data-footnote=""
     data-showdata="true"
-    data-graphtype="line"
+    data-graphtype="bar"
     data-geocoderegex=""
     data-showmap=""
     data-startvalues="null"
-    data-graphlimits="[{&quot;minimum&quot;:30,&quot;maximum&quot;:1500}]"
+    data-graphlimits="[{&quot;minimum&quot;:0,&quot;maximum&quot;:1.5}]"
     data-stackeddisaggregation=""
   >
 
@@ -380,7 +380,7 @@ var translations = {
           
           
           
-          <td class="table-value">2</td>
+          <td class="table-value">0.96</td>
           
           
         </tr>
@@ -392,7 +392,19 @@ var translations = {
           
           
           
-          <td class="table-value">2</td>
+          <td class="table-value">0.97</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
           
           
         </tr>
@@ -486,6 +498,35 @@ opensdg.chartConfigAlter(function(config, info) {
 });
 </script>
 
+<script>
+opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
+    var overrides = {
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
+    };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
+    // Add these overrides onto the normal config, and return it.
+    $.extend(true, config, overrides);
+  }
+});
+</script>
 
         </div>
         <div id="plotLegend"></div>
@@ -682,8 +723,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/mauromussin/open_sdg_simple/commit/9196498cd40636b7b260a4dcb988cc1924c38db8" target="_blank">
-                2020-02-27: see changes on GitHub <span class="visuallyhidden">Si apre in una nuova finestra</span>
+              <a href="https://github.com/mauromussin/open_sdg_simple/commit/f7df09b94d8e82c746e6cebb1c417819b3474a57" target="_blank">
+                2020-03-26: see changes on GitHub <span class="visuallyhidden">Si apre in una nuova finestra</span>
               </a>
             
 
@@ -709,8 +750,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/mauromussin/open_sdg_simple/commit/3b3fa20be3f09185156e87476dc266087be40e93" target="_blank">
-                2020-03-25: see changes on GitHub <span class="visuallyhidden">Si apre in una nuova finestra</span>
+              <a href="https://github.com/mauromussin/open_sdg_simple/commit/f7df09b94d8e82c746e6cebb1c417819b3474a57" target="_blank">
+                2020-03-26: see changes on GitHub <span class="visuallyhidden">Si apre in una nuova finestra</span>
               </a>
             
 
@@ -1388,7 +1429,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/open_sdg_simple/assets/js/sdg.js?v=20200326001630'></script><script>
+<script src='/open_sdg_simple/assets/js/sdg.js?v=20200326142340'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
