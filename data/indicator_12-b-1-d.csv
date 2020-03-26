@@ -1,4 +1,4 @@
-Year	Group	Value	Tipo
+Year,Group,Value,Tipo
 2014,Vacanza,3.9,Aereo
 2014,Vacanza,10.9,Treno
 2014,Vacanza,74.6,Auto
