@@ -1,0 +1,1 @@
+{"data":{"Year":[2016,2016,2016],"Group":["PM25","NO2","O3"],"Area":["Italia","Italia","Italia"],"Value":[58600,14600,6058]},"edges":{"From":["Group"],"To":["Area"]}}

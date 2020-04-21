@@ -398,6 +398,14 @@
           "status": "notstarted"
         },
         {
+          "id": "3-9-1-a",
+          "title": "global_indicators.3-9-1-a-title",
+          "description": "Morti premature attribuibili a PM2.5, NO2 e O3 - 2016",
+          "keywords": "",
+          "href": "/open_sdg_simple/en/3-9-1-a",
+          "status": "complete"
+        },
+        {
           "id": "3-9-2",
           "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",
           "description": "",
