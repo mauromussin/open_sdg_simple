@@ -90,11 +90,9 @@ var translations = {
         <!-- Title and meta description
         ================================================== -->
 
-        <title>
-          
-            Indicatore 7.1.1 - Goal 7
-          
-        </title>
+        
+        <title>Indicatore 7.1.1 - Goal 7</title>
+        
 
         <meta name="description" content="">
         <meta property="og:description" content="">
@@ -122,7 +120,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200828005753">
+        <link rel="stylesheet" href="/open_sdg_simple/assets/css/style.css?v=20200829002709">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -265,6 +263,16 @@ var translations = {
   <% } %>
 </script>
 
+<script type="text/template" id="series_template">
+  <% if(serieses.length) { %>
+    <h4></h4>
+    <% _.each(serieses, function(seriesItem, index) { %>
+      <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
+      <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
+    <% }); %>
+  <% } %>
+</script>
+
 <script>translations['indicator'] = {"chart":"Grafico","clear_all":"Deseleziona tutto","clear_selections":"Rimuovi selezione","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Scarica Grafico CSV","download_chart_image":"Scarica Chart Image","download_chart_image_title":"Scarica chart as image","download_csv":"Scarica CSV","download_csv_title":"Scarica as CSV","download_geojson":"Scarica GeoJSON","download_geojson_title":"Scarica as GeoJSON","download_headline":"Scacica  Headline CSV","download_headline_title":"Scarica headline data as CSV","download_source":"Scarica Source CSV","download_source_title":"Scarica source data as CSV","download_table":"Scarica Tabella CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"nota","geographical_area":"Area Geografica","global_metadata":"Global Metadata","global_metadata_blurb":"Qui sono riportate le informazioni sugli indicatori come definiti originariamente dalla Commissione Statistica dell'ONU. La <a href=\"https://unstats.un.org/sdgs/metadata/\">Guida ONU</a> riporta ulteriori dettagli.","legend_help":"Clicca sulla legenda per non visualizzare le serie.","loading_map":"Carica Mappa","map":"Mappa","national_metadata":"Metadati nazionali o regionali","national_metadata_blurb":"Questa tabella contiene i metadati per l'indicatore relativo alla statistica di %country_name scelto per il corrisponentes indicatore nazionale e UN. Anche se l'indicatore globale è disponibile per le statistiche a livello %country_adjective, questa tabella può essere consultata per informazioni e metadati %country_adjective-specifici.","no_data_hint":"Nessuna opzione a causa della selezione impostata","select_all":"Seleziona tutto","series_help":"Nel caso in cui i dati siano raggruppati per Sottocategorie, cliccando sulla categoria si possono selezionare più serie di dati. Alcuni dati non sono visualizzati se non selezionati.","source":"Fonte","sources":"Fonti","sub_categories":"Sottocategorie","table":"Tabella","unit_of_measurement":"Unità di misura","units_type":"tipo di unità","variable_hint":"Disponibile se '%field' è selezionato","view_indicator_list":"Vai alla lista degli indicatori del goal"};</script>
 
 <script>translations['data'] = null;</script>
@@ -336,7 +344,8 @@ var translations = {
 >
   
   <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
-    <div id="units"></div>
+    <div id="serieses"></div>
+<div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
     <h4>Sottocategorie</h4>
@@ -1108,7 +1117,7 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/open_sdg_simple/assets/js/sdg.js?v=20200828005753'></script><script>
+<script src='/open_sdg_simple/assets/js/sdg.js?v=20200829002709'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
